@@ -30,13 +30,13 @@ body {
 .right {
     background-color: #d9d9d9;
     background-image: linear-gradient(315deg, #d9d9d9 0%, #f6f2f2 74%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+   display: flex; 
+   flex-direction: column; 
+   justify-content: flex-start;
+   align-items: center;
 }
 
-.profile-container {
+.profile-container, .test {
     text-align: center;
 }
 
@@ -49,7 +49,7 @@ body {
     border: 4px solid #d9d9d9;
 }
 
-.profile-name {
+.profile-name, .projects {
     font-size: 30px;
     color: #333;
     font-weight: 600;
@@ -111,4 +111,8 @@ ul li{
 
 .right h2{
  margin: 30px;
+}
+
+ul li{
+  font-size: 18px;
 }
