@@ -1,14 +1,14 @@
 {
     "pt": {
         "projectsTitle": "Meus projetos",
-        "projectsList": ["Site Pessoal", "Análise Exploratória", "Dashboards"],
+        "projectsList": "Site Pessoal",
         "profileName": "Gabriela Dutra",
         "aboutMe": "Atualmente curso o sexto semestre de Análise e Desenvolvimento de Sistemas. Tenho interesse em Análise de Dados. Minhas habilidades em Excel são intermediárias; entendo de gráficos, tabelas dinâmicas e funções. Além disso, estou fazendo uma formação em análise de dados e estatística.",
         "githubLink": "Github"
     },
     "en": {
         "projectsTitle": "My Projects",
-        "projectsList": ["Creative Website", "Exploratory Analysis", "Dashboards"],
+        "projectsList": "Creative Website",
         "profileName": "Gabriela Dutra",
         "aboutMe": "Currently pursuing the sixth semester of Analysis and Systems Development. I am interested in Data Analysis. My Excel skills are intermediate; I understand charts, pivot tables, and functions. Besides, I am taking a course in data analysis and statistics.",
         "githubLink": "Github"
