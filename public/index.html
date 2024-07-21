@@ -2,80 +2,81 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="icon" type="image/x-icon" href="./content/favicon.ico">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <title>Gabriela Dutra</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="icon" type="image/x-icon" href="./content/favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Gabriela Dutra</title>
 </head>
 
 <body>
   <div class="language-switcher">
-    <button id="btn-br" onclick="clicar('pt')">
+    <button id="btn-br">
       <img src="content/brazil.png" alt="Português">
-  </button>
-  <button id="btn-en" onclick="clicar('en')">
+    </button>
+    <button id="btn-en">
       <img src="content/us.png" alt="English">
-</div>
-    <div class="division">
-      <div class="profile-container"></div>
-        <div class="right">
-            <div style="height: 210px;"></div>
-            <div>
-              <!-- <div class="test"></div>
+    </button>
+  </div>
+  <div class="division">
+    <div class="profile-container"></div>
+    <div class="right">
+      <div style="height: 210px;"></div>
+      <div>
+        <!-- <div class="test"></div>
               <img  id="image" src="" alt=""> -->
-              <div class="projects">{{projectsTitle}}</div>
-            </div>
-            <div style="margin: 50px; padding: 0 20px;">
-                <ul>
-                    <li>{{projectsList}} </li>
-                </ul>
-            </div>
+        <div class="projects">{{projectsTitle}}</div>
+      </div>
+      <div style="margin: 50px; padding: 0 20px;">
+        <ul>
+          <li>{{projectsList}} </li>
+        </ul>
+      </div>
+    </div>
+    <div class="left">
+      <div class="profile-container">
+        <img src="content/gabrielaFoto.jpg" alt="Minha Foto" class="profile-image">
+        <div class="profile-name">Gabriela Dutra</div>
+        <div class="about-me">
+          <p>
+            {{aboutMe}}
+          </p>
         </div>
-        <div class="left">
-            <div class="profile-container">
-                <img src="content/gabrielaFoto.jpg" alt="Minha Foto" class="profile-image">
-                <div class="profile-name">Gabriela Dutra</div>
-                <div class="about-me">
-                    <p>
-                     {{aboutMe}}
-                    </p>
-                </div>
-                <div id="container">
-                    <div class="stacks">
-                      <img src="content/excel.png" alt="Excel" />
-                    </div>
-                    <div class="stacks">
-                      <img src="content/sql.png" alt="Sql" />
-                    </div>
-                    <div class="stacks">
-                      <img src="content/html.png" alt="Html" />
-                    </div>
-                    <div class="stacks">
-                      <img src="content/css.png" alt="CSS" />
-                    </div>
-                    <div class="stacks">
-                      <img src="content/js.png" alt="JS" />
-                    </div>
-                    <div class="stacks">
-                      <img src="content/python.png" alt="Python" />
-                    </div>
-                  </div>
-                  <footer>
-                    <button id="btn-git"><a href="https://github.com/gabrieladutra">Github</a></button>
-                    
-                  </footer>
-            </div>
+        <div id="container">
+          <div class="stacks">
+            <img src="content/excel.png" alt="Excel" />
+          </div>
+          <div class="stacks">
+            <img src="content/sql.png" alt="Sql" />
+          </div>
+          <div class="stacks">
+            <img src="content/html.png" alt="Html" />
+          </div>
+          <div class="stacks">
+            <img src="content/css.png" alt="CSS" />
+          </div>
+          <div class="stacks">
+            <img src="content/js.png" alt="JS" />
+          </div>
+          <div class="stacks">
+            <img src="content/python.png" alt="Python" />
+          </div>
         </div>
+        <footer>
+          <button id="btn-git"><a href="https://github.com/gabrieladutra">Github</a></button>
 
-    </div>  
+        </footer>
+      </div>
+    </div>
 
-   
-    <script src="./script.js" type="module" defer></script>
+  </div>
+
+
+  <script src="./script.js" type="module" defer></script>
 </body>
 
 </html>
