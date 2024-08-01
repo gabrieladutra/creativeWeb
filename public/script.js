@@ -18,9 +18,7 @@ window.onload = async () => {
 
     function replaceLanguage(idioma) {
         let language = data[idioma]
-        document.body.innerHTML = html.replaceAll('{{projectsTitle}}', language.projectsTitle)
-        document.body.innerHTML = document.body.innerHTML.replaceAll('{{projectsList}}', language.projectsList)
-        document.body.innerHTML = document.body.innerHTML.replaceAll('{{aboutMe}}', language.aboutMe);
+        document.body.innerHTML = Mustache.render(html, language)
         switchlanguage()
     }
 
