@@ -3,7 +3,7 @@ window.onload = async () => {
     const data = await arquivo.json()
     let html = document.body.innerHTML
 
-    function switchlanguage() {
+    function switchLanguage() {
         let btnEn = document.getElementById("btn-en")
         let btnPt = document.getElementById("btn-br")
 
@@ -19,9 +19,9 @@ window.onload = async () => {
     function replaceLanguage(idioma) {
         let language = data[idioma]
         document.body.innerHTML = Mustache.render(html, language)
-        switchlanguage()
+        switchLanguage()
     }
 
     replaceLanguage("pt")
-    switchlanguage()
+    switchLanguage()
 }
