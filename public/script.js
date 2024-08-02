@@ -42,4 +42,3 @@ function funcaoRecursiva(elemento) {
     }
     return elementos
 }
-window.funcaoRecursiva = funcaoRecursiva
